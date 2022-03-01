@@ -115,6 +115,7 @@ main {
     color: #FF4081;
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
 }
 
 .cursos--principal p {
@@ -422,4 +423,82 @@ hr {
     height: 5px;
     width: 100%;
     color: #c4c4c4;
+}
+
+/* Aqui começa o Blog */
+ 
+#blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+}
+ 
+#blog p {
+    font-size: 20px;
+    font-style: normal;
+    color: #000000;
+    padding-top: 5%;
+    text-align: left;
+}
+ 
+#blog h1 {
+    padding: 0;
+    margin: 0;
+    color: #009688;
+    font-size: 40px;
+    text-align: left;
+}
+ 
+#blog div {
+    align-items: center;
+    padding: 5%;
+    width: 35%;
+}
+ 
+main a {
+    text-decoration: none;
+    color: #000000;
+}
+ 
+main h3 {
+    font-weight: normal;
+    text-align: left;
+    font-size: 30px;
+    margin: 0;
+    color: #FF4081;
+}
+ 
+main p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+ 
+#blog--main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 6% 2%;
+}
+ 
+.blog--flex {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin: 2% 0;
+    width: 500px;
+}
+
+.oculto--blog {
+    margin: 10px 0;
+    width: 500px;
+    height: 250px;
+    background-color: #C4C4C4;
+
 }
