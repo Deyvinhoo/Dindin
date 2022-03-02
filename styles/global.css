@@ -17,10 +17,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  box-shadow: 0px 3px 6px #1d1a1a;
 }
 
 .logo {
-    margin: 2% 5%;
+    margin: 3% 30%;
 }
 
 nav {
@@ -502,3 +503,85 @@ main p {
     background-color: #C4C4C4;
 
 }
+ 
+/* Aqui começa o contato */
+ 
+#pagina--contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10%;
+}
+ 
+.formulario--contato {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+.formulario--contato form {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.formulario--contato form * {
+    margin: 8px 0;
+}
+
+.formulario--contato h3 {
+    padding: 2% 0;
+    font-size: 40px;
+    color: #ff4081;
+}
+ 
+.img--contato {
+    display: flex;
+    align-content: center;
+    width: 444px;
+    padding-left: 10%;
+}
+ 
+textarea {
+    height: 200px;
+}
+ 
+input {
+    height: 30px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    border: 1px solid #686868;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 16px;
+    text-decoration: #58555d;
+}
+ 
+textarea, input::-webkit-input-placeholder {
+    padding: 3%;
+    color: #58555d;
+}
+
+.entre--contato {
+    margin: 10px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 62px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff4081;
+    color: #ffffff;
+    cursor: pointer;
+}
+ 
+.entre--contato:hover {
+    transition: .6 all;
+    color: #ff4081;
+    background-color: #ffffff;
+}
+ 
