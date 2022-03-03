@@ -639,3 +639,128 @@ textarea, input::-webkit-input-placeholder {
     justify-content:space-between;
     
 }
+
+/* aqui começa a Pagina do cuso */
+
+
+.aula--curso {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content:center;
+  }
+  
+.aula--curso div {
+    width: 50%;
+  }
+  
+.aula--curso div2 {
+    margin: 0;
+    display:flex;
+}
+  
+.aula--curso h1 {
+    margin: 0;
+    padding: 0;
+    color: #FF4081;
+    text-align: left;
+    font-size: 45px;
+  }
+  
+.aula--curso p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+    width: 80%;
+  }
+  
+.imagem--aula {
+    margin: 0 auto;
+    height: 381px;
+    width: 380px;
+    padding: 0 5%;
+    
+}
+
+.conteudo--aulas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    padding: 0;
+  }
+  
+.conteudo--aulas h2 {
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;  
+  }
+  
+.conteudo--aulas p {
+    font-size: 18px;
+  }
+  
+
+  
+#aulas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.aula--card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    align-content: center;
+    justify-content: center;
+}
+  
+.imagem--aula {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0;
+    
+  }
+  
+.texto--aula {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: left;
+    padding: 0;
+    width: 40%;
+    padding-left: 5%;
+}
+  
+#img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+  
+#borda {
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    border: #000000 solid 1px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+#bola, #seta {
+    position: absolute;
+}
+  
+#seta {
+    margin-left: 10px;
+}
+ 
