@@ -844,5 +844,62 @@ textarea, input::-webkit-input-placeholder {
     }
 } 
  
+@media (max-width: 768px){
+    .banner{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
 
+    .imagem--banner{
+        max-width: 270px;
+    }
+
+    .cursos--destaque{
+        display: none;
+    }
+
+    #section--cursos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .selecionar--curso{
+        font-size: 10px;
+    }
+    
+    .imagem--blog {
+        width: 330px;
+    }
+    
+    #carrosel {
+        display:flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    #outros--conteudo h1 {
+        text-align: center;
+        padding: 20px 20px
+    }
+
+    .cursos--post {
+        display:none;
+    }
+
+    .cursos--principal p {
+        font-size: 15px;
+        margin: 20px 2px;
+    }
+
+    .imagem--aula {
+        width: 290px;
+    }
+}
+ 
+@media (max-width: 1200px){
+    
+}
     
