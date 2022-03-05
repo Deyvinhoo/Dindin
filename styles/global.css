@@ -795,9 +795,19 @@ textarea, input::-webkit-input-placeholder {
     }
      
     .oculto--blog{
-        max-width: 420px;
+        max-width: 380px;
     }
-
+     
+    .menu--item--link {
+        font-size: 18px;
+        text-align: center;
+    }
+     
+    .cursos--description h2 {
+        font-size: 25px;
+    }
+     
+    
     #blog div{
         display:flex;
         flex-direction: row;
@@ -815,17 +825,37 @@ textarea, input::-webkit-input-placeholder {
         display:flex;
         flex-direction: column;
     }
+     
+    .conteudo--aulas p{
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+     
+    .aula--curso h1{
+        font-size: 35px;
+    }
+     
+    #borda {
+        max-width: 300px;
+    }
+     
+    .blog--flex p {
+        max-width: 380px;
+    }
 
     .aula--card {
         display:flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
         flex-wrap: wrap;
+        max-width: 350px;
     }
 
     .texto--aula {
         width:400px;
     }
+
+    
 } 
  
 @media (max-width: 768px){
